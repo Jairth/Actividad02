@@ -1,0 +1,19 @@
+.sidebar-close {
+  translate: 0 0;
+}
+
+.sidebar-open {
+  translate: 0 0 !important;
+}
+
+.view-modal {
+  display: flex;
+}
+
+
+@media (max-width: 768px) {
+  aside {
+    translate: -100% 0;
+  }
+
+}

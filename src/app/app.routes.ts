@@ -6,7 +6,12 @@ export const routes: Routes = [
     loadChildren: () => import("./register/register.routes"),
   },
   {
+    path: 'dashboard',
+    loadChildren: () => import("./dashboard/dashboard.routes"),
+  },
+  {
     path: "**",
     redirectTo: "/session",
   }
+
 ];
